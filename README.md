@@ -39,4 +39,4 @@ void main() {
 
 ```yaml
 dependencies:
-  multi_updater: ^1.0.0
+  multi_updater: ^1.0.1
