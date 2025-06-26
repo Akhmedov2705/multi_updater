@@ -4,5 +4,5 @@
 
 ## 1.0.1
 
-* TODO: Describe initial release.
+* TODO: Describe more info release.
 
