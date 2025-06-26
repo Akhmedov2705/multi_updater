@@ -18,11 +18,9 @@ It shows an update dialog with options to update via App Store or Play Store —
 
 ### Usage
 
-'''example
-    import 'package:flutter/material.dart';
-import 'package:multi_updater/multi_updater.dart';
 
-void main() {
+
+'''void main() {
   runApp(
     UpdaterWrapper(
       iosPath: "https://apps.apple.com/app/id1234567890",

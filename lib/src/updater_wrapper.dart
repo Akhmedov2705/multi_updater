@@ -89,12 +89,10 @@ class _UpdaterWrapperState extends State<UpdaterWrapper> {
         content: const Text("Iltimos, ilovani yangilang."),
         actions: [
           TextButton(
-            onPressed:
-                widget.onUpdateTap ??
+            onPressed: widget.onUpdateTap ??
                 () async {
-                  final url = Platform.isAndroid
-                      ? widget.androidPath
-                      : widget.iosPath;
+                  final url =
+                      Platform.isAndroid ? widget.androidPath : widget.iosPath;
                   if (await canLaunchUrl(Uri.parse(url))) {
                     await launchUrl(
                       Uri.parse(url),
