@@ -32,7 +32,7 @@ platforms:
   ios:
 
 topics:
-  - multi_updater
+  - multi-updater
   - update
   - firebase
   - remote-config
